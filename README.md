@@ -12,7 +12,7 @@ Install the required dependencies:
 Run the application locally:
 
 
-#npm start
+#npm run dev
 This will start the development server and open the application in your default browser.
 
 #Known Issues or Limitations:
