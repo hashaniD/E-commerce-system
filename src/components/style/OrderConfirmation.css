@@ -1,0 +1,25 @@
+/* Move the order confirmation to the top */
+
+
+/* Styling the card */
+.order-confirmation-card {
+    text-align: center;
+    padding: 30px;
+    max-width: 500px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 0px; 
+    margin-bottom: 100px;
+    margin-left: 450px;/* Slight gap from the top */
+  }
+  
+  /* Optional responsive adjustments */
+  @media (max-width: 768px) {
+    .order-confirmation-card {
+        padding: 20px;
+        margin-top: 10px; /* Reduce margin for smaller screens */
+    }
+  }
+  

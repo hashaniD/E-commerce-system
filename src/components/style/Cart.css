@@ -1,0 +1,96 @@
+.cart-container {
+    padding: 10px;
+    max-width: 1000px;  /* Limit max width of the cart */
+    margin: 0 auto;
+    margin-top: 0px; /* Ensures cart is at the top */
+  }
+  
+  .cart-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;  /* Darker text for better visibility */
+  }
+  
+  .cart-item-card {
+    max-width: 280px;
+    margin: 10px ; /* Centering cards with minimal margin */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for better visibility */
+    border-radius: 8px;  /* Rounded corners for card */
+    background-color: #fff;
+    margin-top: 0%;  /* White background for the card */
+  }
+  
+  .cart-item-content {
+    padding: 8px;
+  }
+  
+  .cart-item-name {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-price {
+    font-size: 0.9rem;
+    color: #ff5722;  /* Highlighted price color */
+  }
+  
+  .cart-item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  
+  .cart-item-quantity {
+    width: 60px;  /* Increased width for easier interaction */
+    font-size: 0.9rem;
+  }
+  
+  .remove-button {
+    margin-left: 8px;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    background-color: #f44336;  /* Red background for remove button */
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .remove-button:hover {
+    background-color: #d32f2f;  /* Darker red on hover */
+  }
+  
+  .cart-total {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center; /* Center total price */
+    margin-top: 15px;
+  }
+  
+  .cart-empty {
+    text-align: center;
+    font-size: 1rem;
+    color: #9e9e9e;
+  }
+  
+  .cart-item-total-price {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #757575;
+  }
+  
+  .cart-item-actions button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    background-color: #3f51b5; 
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .cart-item-actions button:hover {
+    background-color: #303f9f;  
+  }
+  
