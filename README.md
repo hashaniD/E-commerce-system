@@ -8,11 +8,11 @@ npm (Node Package Manager)
 
 Install the required dependencies:
 
-#npm install
+#npm install -
 Run the application locally:
 
 
-#npm run dev
+#npm run dev -
 This will start the development server and open the application in your default browser.
 
 #Known Issues or Limitations:
