@@ -8,14 +8,14 @@ npm (Node Package Manager)
 
 Install the required dependencies:
 
-npm install
+#npm install
 Run the application locally:
 
 
-npm start
+#npm start
 This will start the development server and open the application in your default browser.
 
-Known Issues or Limitations:
+#Known Issues or Limitations:
 No user authentication or authorization is implemented.
 Limited error handling in some cases (e.g., network errors).
 The backend API should be running and accessible for API interactions to work properly.
